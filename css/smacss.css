@@ -127,6 +127,9 @@ form li{
 	  
 }
 
+td {
+	font-size: .8em;
+}
 /* Layout */
 
 .drop-cap {
@@ -252,6 +255,7 @@ form li{
 #layout-tourdatesection {
 	margin: auto;
 	float:left;
+	width: 212px;
 }
 #layout-maininfosection {
 	width: 707px;
@@ -275,6 +279,31 @@ form li{
 .float-left {
 	float: left;
 }
+.tour-dates-header {
+	background-color: #000;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: #FFF;
+	text-decoration: none;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	list-style-type: none;
+	font-size: 1.7em;
+	margin: 2px;
+}
+
+.tour-dates-content {
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+	background-color: white;
+	border: 3px solid black;
+	text-align: center;
+}
+	
 /* Module */
 /* State */
 /* Theme */
