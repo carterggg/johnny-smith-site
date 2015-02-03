@@ -263,6 +263,12 @@ form li{
 #layout-submitbutton {
 	float:right;
 }
+.float-right {
+	float: right;
+}
+.float-left {
+	float: left;
+}
 /* Module */
 /* State */
 /* Theme */
